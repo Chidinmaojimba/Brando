@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  
+  background-color:;
 }
 /* Navbar container */
 .navBar {
@@ -156,7 +156,11 @@ background-color: black;
 
 .features {
   margin-top: 100px;
+  background-color: whitesmoke;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
+
 .feature-Text  h1{
  font-size: 2.45rem;
  line-height: 2.5rem;
@@ -186,12 +190,12 @@ justify-self: center;
 .items-div{
 box-sizing: border-box;
 padding: 2rem;
-background-color: whitesmoke;
+background-color: white;
 display: flex;
 flex-direction: column;
 gap: 10px;
-width: 250px;
-height: 250px;
+ width: 250px;
+height: 250px; 
 border-radius: 5px;
 border:1px solid rgb(218, 213, 213);
 }
@@ -208,6 +212,111 @@ border:1px solid rgb(218, 213, 213);
 }
 
 .items-div i {
-  font-size: 24px;
+  font-size:1.5rem;
   color: #4a90e2;
+}
+
+
+/* pricing section */
+.pricing {
+  margin-top: 100px;
+}
+.pricing-Text  h1{
+ font-size: 2.45rem;
+ line-height: 2.5rem;
+}
+
+.pricing-Text p{
+ font-size: 1.25rem;
+ line-height: 1.75rem;
+ color: gray;
+ margin-top: 20px;
+}
+
+.pricing-Text {
+  text-align: center;
+}
+
+.pricing-card{
+display: flex;
+align-items: center;
+justify-content: space-around;
+gap: 5px;
+margin-top: 70px;
+width: 80%;
+justify-self: center;
+}
+
+.items-div-pricing{
+box-sizing: border-box;
+padding: 2rem;
+background-color: whitesmoke;
+display: flex;
+flex-direction: column;
+gap: 10px;
+width: 250px;
+height: 250px;
+border-radius: 5px;
+border:1px solid rgb(218, 213, 213);
+}
+
+.items-div-pricing h3{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.items-div-pricing p {
+ font-size: 0.9rem; 
+ line-height: 1.7rem;
+ color: grey;
+}
+
+.items-div-pricing i {
+  font-size: 14px;
+  color: #4a90e2;
+}
+
+.testimonial p {
+ font-size: 0.75rem;
+}
+
+.testimonial i {
+  font-size: 1.9rem;
+  color: black;
+}
+
+.testimonial{
+  display: flex;
+}
+
+.inner-testimonial{
+  margin-left: 20px;
+}
+
+
+.number-item h1{
+ font-size: 2.25rem;
+ line-height: 2.5rem;
+ color: white;
+}
+
+.number-item p {
+ font-size: 0.9rem; 
+ line-height: 1.7rem;
+ color: grey;  
+}
+
+.number-item {
+  background-color: ;
+}
+
+.number {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:black;
+  color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 100px;
 }
