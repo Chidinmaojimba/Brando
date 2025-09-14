@@ -250,3 +250,167 @@ nav
 }
 
 
+
+
+
+
+
+/* pricing dollars to footer */
+
+
+/* ==================== RESPONSIVE DESIGN ==================== */
+
+/* Tablet Screens */
+@media (max-width: 992px) {
+  .pricing-dollars-card {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+  }
+
+  .pricing-dollars-card-Items,
+  .pricing-dollars-card-Items-two {
+    width: 45%;
+    height: auto;
+  }
+
+  footer {
+    padding: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer-col {
+    flex: 1 1 40%;
+    margin-bottom: 30px;
+  }
+
+  .extra-div h1 {
+    font-size: 2rem;
+  }
+
+  .extra-div p {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 600px) {
+  .pricing-dollars-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .pricing-dollars-text p {
+    font-size: 1rem;
+  }
+
+  .pricing-dollars-card {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .pricing-dollars-card-Items,
+  .pricing-dollars-card-Items-two {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .extra {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+  .extra-div h1 {
+    font-size: 1.8rem;
+  }
+
+  .extra-div p {
+    font-size: 1rem;
+  }
+
+  .extra-Bttn button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    padding: 30px 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-col {
+    flex: 1 1 100%;
+    margin: 10px 0;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+  }
+
+  .footer-bottom {
+    padding: 15px 10px;
+    font-size: 12px;
+  }
+
+  .footer-bottom a {
+    display: block;
+    margin: 5px 0 0 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

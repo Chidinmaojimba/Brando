@@ -132,7 +132,7 @@ background-color: black;
   color:white;
   font-size: 15px;
   padding: 14px;
-  border:none;
+  border: 1px solid grey;
 }
 
 .bttn2 {
@@ -306,9 +306,6 @@ border:1px solid rgb(218, 213, 213);
  color: grey;  
 }
 
-.number-item {
-  background-color: ;
-}
 
 .number {
   display: flex;
@@ -320,3 +317,221 @@ border:1px solid rgb(218, 213, 213);
   padding-bottom: 5rem;
   margin-top: 100px;
 }
+
+.pricing-dollars {
+  background-color: whitesmoke;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.pricing-dollars-text  h1{
+ font-size: 2.45rem;
+ line-height: 2.5rem;
+}
+
+.pricing-dollars-text p{
+ font-size: 1.25rem;
+ line-height: 1.75rem;
+ color: gray;
+ margin-top: 20px;
+}
+
+.pricing-dollars-text {
+  text-align: center;
+}
+
+
+
+.pricing-dollars-card h3{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.pricing-dollars-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  justify-self: center;
+  margin-top: 50px; 
+}
+
+.pricing-dollars-card-Items {
+  box-sizing: border-box;
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 280px;
+  height: 350px; 
+  border-radius: 5px;
+  border:1px solid rgb(218, 213, 213);
+}
+
+.pricing-dollars-card-Items-two {
+  box-sizing: border-box;
+  padding: 2rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 280px;
+  height: 350px; 
+  border-radius: 5px;
+  border:1px solid black;
+}
+
+.pricing-dollars-card-Items-two button {
+  background-color: black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color:white;
+  font-size: 15px;
+  padding: 14px;
+  border:none;
+}
+
+.inner {
+  display: flex;
+}
+
+.pricing-dollars-card-Items button {
+  background-color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: grey;
+  font-size: 15px;
+  padding: 14px;
+  border: 1px solid grey;
+}
+
+.pricing-dollars-card-Items-two ul {
+  list-style-type:none ;
+}
+
+.outer-bttn {
+ background-color: black;
+  border-radius: 100px;
+  cursor: pointer;
+  color:white;
+  font-size: 10px;
+  padding: 6%;
+  border:none;
+  text-align: center;
+  width: 60%;
+  margin-top: -50px;
+  align-self: center;
+} 
+
+.extra {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ background-color: black;
+ padding-top: 5rem;
+ padding-bottom: 5rem;
+}
+
+.extra-div h1{
+ font-size: 2.45rem;
+ line-height: 2.5rem;
+ color: white;
+}
+
+.extra-div p{
+ font-size: 1.25rem;
+ line-height: 1.75rem;
+ color: gray;
+}
+
+.extra-Bttn {
+  margin-top: 20px;
+}
+
+footer {
+      background: linear-gradient(to right, #1c1c1c, #0f0f0f);
+      padding: 50px 100px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .footer-col {
+      flex: 1;
+      margin: 20px;
+      min-width: 200px;
+    }
+
+    .footer-col h3 {
+      color: #fff;
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+
+    .footer-col p {
+      color: #aaa;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 12px;
+    }
+
+    .footer-col ul li a {
+      text-decoration: none;
+      color: #aaa;
+      transition: 0.3s;
+    }
+
+    .footer-col ul li a:hover {
+      color: #0abde3;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin-right: 15px;
+      color: #aaa;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #0abde3;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding: 20px 100px;
+      border-top: 1px solid #333;
+      font-size: 14px;
+      background-color: #0d0d0d;
+    }
+
+    .footer-bottom a {
+      color: grey;
+      margin-left: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .footer-bottom a:hover {
+      color: #0abde3;
+    }
+
+
+
+
+
+
+
+
+
