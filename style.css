@@ -531,8 +531,161 @@ footer {
 
 
 
+/* Tablet view (1024px and below) */
+@media (max-width: 1024px) {
+  /* Navbar */
+  .navBar {
+    padding: 15px 30px;
+  }
 
+  .nav-links ul {
+    gap: 15px;
+  }
 
+  /* Home Section */
+  .home {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+  }
 
+  .home-writeup {
+    width: 80%;
+  }
 
+  .home-src {
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+  }
 
+  /* Features */
+  .feature-card {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /* Pricing Testimonials */
+  .pricing-card {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .items-div-pricing {
+    width: 280px;
+    height: auto;
+  }
+
+  /* Pricing Plans */
+  .pricing-dollars-card {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+}
+
+/* Mobile view (768px and below) */
+@media (max-width: 768px) {
+  /* Navbar */
+  .navBar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .navBar > div:last-child {
+    margin-top: 15px;
+    align-self: center;
+  }
+
+  /* Home Section */
+  .home-writeup h1 {
+    font-size: 2rem;
+  }
+
+  .home-writeup p {
+    font-size: 1rem;
+  }
+
+  .home-src {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  /* Features */
+  .feature-card {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .items-div {
+    width: 90%;
+    height: auto;
+  }
+
+  /* Testimonials */
+  .pricing-card {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .items-div-pricing {
+    width: 90%;
+  }
+
+  /* Pricing Plans */
+  .pricing-dollars-card {
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+  }
+
+  .pricing-dollars-card-Items,
+  .pricing-dollars-card-Items-two {
+    width: 90%;
+    height: auto;
+  }
+
+  /* Numbers Section */
+  .number {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Extra Section */
+  .extra-div h1 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .extra-div p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .footer-col {
+    margin: 15px 0;
+  }
+
+  .footer-bottom {
+    padding: 15px 20px;
+    font-size: 12px;
+  }
+}
