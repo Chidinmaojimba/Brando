@@ -690,6 +690,42 @@ footer {
   }
 }
 
+.feature-Text h1 {
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+  }
+
+  .feature-Text p {
+    font-size: 1.2rem;
+    /* text-align: center; */
+   
+  }
+  .feature-Text{
+    /* width: 90%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .pricing-Text h1 {
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+  }
+
+  .pricing-Text {
+    font-size: 1.2rem;
+  }
+
+  .extra-Bttn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bttn2{
+    margin-left: 2px;
+  }
+
 
 /* ================================
    RESPONSIVE DESIGN FOR ≤ 480px
