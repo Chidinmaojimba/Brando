@@ -529,8 +529,6 @@ footer {
     }
 
 
-
-
 /* Tablet view (1024px and below) */
 @media (max-width: 1024px) {
   /* Navbar */
@@ -541,6 +539,7 @@ footer {
   .nav-links ul {
     gap: 15px;
   }
+
 
   /* Home Section */
   .home {
@@ -596,9 +595,10 @@ footer {
   }
 
   .nav-links ul {
-    flex-direction: column;
+    flex-direction:;
     gap: 10px;
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-left: 400px;
   }
 
   .navBar > div:last-child {
@@ -687,5 +687,191 @@ footer {
   .footer-bottom {
     padding: 15px 20px;
     font-size: 12px;
+  }
+}
+
+
+/* ================================
+   RESPONSIVE DESIGN FOR ≤ 480px
+   ================================ */
+@media (max-width: 480px) {
+
+  /* GLOBAL */
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    /* overflow-x: hidden; */
+    font-size: 14px;
+  }
+
+  /* NAVBAR */
+  nav {
+    padding: 10px 16px;
+    height: auto;
+  }
+  .nav-links ul {
+    flex-direction:;
+    gap: 10px;
+    margin-top: 5px;
+    margin-left: 400px;
+  }
+
+  .nav__container {
+    gap: 10px;
+  }
+
+  .nav-logo img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .nav-text h1 {
+    font-size: 16px;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .nav-links a,
+  #lets-talk {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+
+  /* HOME / HERO SECTION */
+  .home {
+    padding: 20px 16px;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .feature-Text h1 {
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+  }
+
+  .feature-Text p {
+    font-size: 1.2rem;
+    /* text-align: center; */
+   
+  }
+  .feature-Text{
+    /* width: 90%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .pricing-Text h1 {
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+  }
+
+  .pricing-Text {
+    font-size: 1.2rem;
+  }
+
+  .extra-Bttn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bttn2{
+    margin-left: 2px;
+  }
+  .home-left h2 {
+    font-size: 1.0rem;
+    
+  }
+
+  .home-left p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .home-left button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .home-right {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* ABOUT SECTION */
+  .about {
+    padding: 30px 16px;
+  }
+
+  .about h2 {
+    font-size: 26px;
+  }
+
+  .about p {
+    font-size: 14px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .about-right img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* SKILLS */
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  .skill-card {
+    padding: 15px;
+  }
+
+  /* WORK / PROJECTS */
+  .work-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .work-card {
+    padding: 14px;
+  }
+
+  /* CONTACT */
+  .contact {
+    padding: 25px 16px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .contact button {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 20px 10px;
+    font-size: 13px;
+    text-align: center;
   }
 }
