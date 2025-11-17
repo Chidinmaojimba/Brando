@@ -687,7 +687,7 @@ footer {
   .footer-bottom {
     padding: 15px 20px;
     font-size: 12px;
-  }
+  } 
 }
 
 .feature-Text h1 {
@@ -909,5 +909,10 @@ footer {
     padding: 20px 10px;
     font-size: 13px;
     text-align: center;
+  }
+
+  .footer-bottom {
+    text-align: right;
+    
   }
 }
